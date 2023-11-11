@@ -1,0 +1,61 @@
+
+.px-4 img{
+	height: 500px;
+	width: 400px;
+	float: left;
+
+}
+.btn-info img{
+	height: 40px;
+	width: 60px;
+}
+#title div h1{
+	text-align: left;
+}
+#title div div p{
+	text-align: left;
+}
+#title div div div img{
+	text-align: left;
+}
+.whats-new div div div div .btn{
+	height: 50px;
+	width: 100px;
+
+}
+ li .d-flex{
+	border-radius: 20%;
+}
+.para img{
+	text-align: left;
+	float: left;
+}
+
+.gradient-background {
+  background: linear-gradient(300deg, black,grey,white);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
